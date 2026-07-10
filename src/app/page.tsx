@@ -89,8 +89,8 @@ export default function Home() {
 
       <section className="about-section fade-in-item" style={{ "--item-index": 2 } as CSSProperties}>
         <p>Systems Architect & Developer building modular, high-performance software. Focused on distributed systems and AI infrastructure.</p><br/>
-        <p>Highly Obsessed with Self Taught Learning</p><br/>
-        <p>Surfing my life on Arch Linux</p>
+        <p>Highly Obsessed with Self Taught Learning</p>
+        <p>I use Arch BTW</p>
         <p>Loving Rust</p>
       </section>
 
@@ -102,25 +102,29 @@ export default function Home() {
           <div className="skills-category">
             <span className="category-label">Frameworks & Languages</span>
             <div className="tags-container">
-              <span className="tag mono">NextJS</span>
+              <span className="tag mono">Javascript</span>
               <span className="tag mono">NodeJS</span>
+              <span className="tag mono">CSS</span>
               <span className="tag mono">React</span>
+              <span className="tag mono">NextJS</span>
               <span className="tag mono">TypeScript</span>
               <span className="tag mono">Python</span>
               <span className="tag mono">Rust</span>
-              <span className="tag mono">CSS</span>
             </div>
           </div>
           <div className="skills-category">
             <span className="category-label">AI Engineering</span>
             <div className="tags-container">
+              <span className="tag mono">SKILL.md</span>
               <span className="tag mono">Advanced RAG</span>
-              <span className="tag mono">Model Optimizations</span>
+              <span className="tag mono">Model Optimization</span>
+              <span className="tag mono">Multi-Agentic Infrastructure</span>
             </div>
           </div>
           <div className="skills-category">
             <span className="category-label">Currently Learning</span>
             <div className="tags-container">
+              <span className="tag mono">Backend Designing</span>
               <span className="tag mono">System Design</span>
               <span className="tag mono">System Programming</span>
               <span className="tag mono">Machine Learning</span>

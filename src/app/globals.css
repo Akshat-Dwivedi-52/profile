@@ -293,7 +293,7 @@ body::before {
 .skills-grid {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 
 .skills-category {
