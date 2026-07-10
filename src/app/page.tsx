@@ -115,10 +115,9 @@ export default function Home() {
           <div className="skills-category">
             <span className="category-label">AI Engineering</span>
             <div className="tags-container">
-              <span className="tag mono">SKILL.md</span>
               <span className="tag mono">Advanced RAG</span>
               <span className="tag mono">Model Optimization</span>
-              <span className="tag mono">Multi-Agentic Infrastructure</span>
+              <span className="tag mono">Multi-Agent Orchestration</span>
             </div>
           </div>
           <div className="skills-category">
@@ -166,7 +165,25 @@ export default function Home() {
               A memory system inspired by the human brain. Able to manage itself by removing unwanted facts and memories, keeping only valuable facts, and connecting/organizing them as the corpus grows.
             </p>
             <div className="project-tech-tags">
-              <span className="mini-tag">Python</span>
+              <span className="mini-tag">Rust</span>
+              <span className="mini-tag">Typescript</span>
+              <span className="mini-tag">Vector DB</span>
+              <span className="mini-tag">Cognitive Memory</span>
+            </div>
+          </div>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-name">Langchain Alternative [Not yet Disclosed]</h3>
+              <span className="badge badge-progress">In Progress</span>
+            </div>
+            <p className="project-desc">
+              A production grade agentic library written in Rust and Typescript built for high performance multi-agent tasks with the lowest memory footprint with highest throughput
+            </p>
+            <div className="project-tech-tags">
+              <span className="mini-tag">Rust</span>
+              <span className="mini-tag">Typescript</span>
+              <span className="mini-tag">Multi-Agent</span>
               <span className="mini-tag">Vector DB</span>
               <span className="mini-tag">Cognitive Memory</span>
             </div>
@@ -182,10 +199,12 @@ export default function Home() {
             </p>
             <div className="project-tech-tags">
               <span className="mini-tag">Rust</span>
-              <span className="mini-tag">Reasoning Models</span>
-              <span className="mini-tag">Memory Arch</span>
+              <span className="mini-tag">Typescript</span>
+              <span className="mini-tag">Agentic AI</span>
+              <span className="mini-tag">Cognitive Memory</span>
             </div>
           </div>
+
         </div>
       </section>
 
