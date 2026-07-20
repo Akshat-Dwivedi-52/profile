@@ -209,7 +209,7 @@ export default function Home() {
       </section>
 
       <footer className="resume-footer fade-in-item" style={{ "--item-index": 7 } as CSSProperties}>
-        <p>Zero cookies, just vibes and compile warnings. Handcrafted by Akshat Dwivedi.</p>
+        <p>Execute with intent, or don&apos;t execute at all.</p>
       </footer>
     </main>
   );
