@@ -137,6 +137,7 @@ export default function Home() {
       <section className="resume-section fade-in-item" style={{ "--item-index": 6 } as CSSProperties}>
         <h2 className="section-title">Projects</h2>
         <div className="projects-list">
+
           <div className="project-item">
             <div className="project-header">
               <h3 className="project-name">
@@ -153,6 +154,25 @@ export default function Home() {
               <span className="mini-tag">Next.js</span>
               <span className="mini-tag">Node.js</span>
               <span className="mini-tag">LLM Routing</span>
+            </div>
+          </div>
+
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-name">
+                <a href="https://huggingface.co/Akshat-Dwivedi/micro-gpt" target="_blank" rel="noopener noreferrer" className="inline-link">
+                  Micro-GPT-50M <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+              </h3>
+              <span className="badge badge-completed">Completed</span>
+            </div>
+            <p className="project-desc">
+              Micro-GPT is a compact 50M parameter dense, decoder-only GPT model pre-trained on <span className="highlight-text">~1B</span> tokens with a token density of ~20.5 tokens per parameter.
+            </p>
+            <div className="project-tech-tags">
+              <span className="mini-tag">SLM</span>
+              <span className="mini-tag">GPT</span>
+              <span className="mini-tag">Dense</span>
             </div>
           </div>
 
