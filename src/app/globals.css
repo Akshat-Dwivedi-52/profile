@@ -20,8 +20,12 @@
   --accent-green-bg: rgba(5, 150, 105, 0.06);
   --accent-amber: #d97706;
   --accent-amber-bg: rgba(217, 119, 6, 0.06);
-  --radial-glow: radial-gradient(circle 400px at 50% -100px, rgba(255, 89, 29, 0.05), transparent 70%);
-  
+  --radial-glow: radial-gradient(
+    circle 400px at 50% -100px,
+    rgba(255, 89, 29, 0.05),
+    transparent 70%
+  );
+
   /* Emil / Apple Custom Easing Curves */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
@@ -43,17 +47,25 @@
   --accent-green-bg: rgba(16, 185, 129, 0.08);
   --accent-amber: #f59e0b;
   --accent-amber-bg: rgba(245, 158, 11, 0.08);
-  --radial-glow: radial-gradient(circle 400px at 50% -100px, rgba(255, 89, 29, 0.08), transparent 70%);
+  --radial-glow: radial-gradient(
+    circle 400px at 50% -100px,
+    rgba(255, 89, 29, 0.08),
+    transparent 70%
+  );
 }
 
-html, body {
+html,
+body {
   width: 100%;
   min-height: 100%;
   background-color: var(--bg-dark);
   color: var(--text-primary);
-  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family:
+    var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   overflow-x: hidden;
-  transition: background-color var(--transition-smooth), color var(--transition-smooth);
+  transition:
+    background-color var(--transition-smooth),
+    color var(--transition-smooth);
 }
 
 body {
@@ -129,7 +141,9 @@ body::before {
   padding: 6px 12px;
   border-radius: 20px;
   border: 1px solid var(--border-color);
-  transition: background-color var(--transition-smooth), border-color var(--transition-smooth);
+  transition:
+    background-color var(--transition-smooth),
+    border-color var(--transition-smooth);
 }
 
 [data-theme="dark"] .status-badge {
@@ -186,7 +200,10 @@ body::before {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: transform var(--transition-fast), background-color var(--transition-smooth), border-color var(--transition-smooth);
+  transition:
+    transform var(--transition-fast),
+    background-color var(--transition-smooth),
+    border-color var(--transition-smooth);
 }
 
 .theme-toggle-btn:active {
@@ -219,7 +236,9 @@ body::before {
   font-weight: 500;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 1px;
-  transition: color var(--transition-smooth), border-color var(--transition-smooth);
+  transition:
+    color var(--transition-smooth),
+    border-color var(--transition-smooth);
   display: inline-flex;
   align-items: center;
   gap: 2px;
@@ -227,7 +246,9 @@ body::before {
 
 .inline-link svg {
   opacity: 0.6;
-  transition: transform var(--transition-fast), opacity var(--transition-fast);
+  transition:
+    transform var(--transition-fast),
+    opacity var(--transition-fast);
 }
 
 .inline-link:active {
@@ -252,7 +273,11 @@ body::before {
   border: 1px solid var(--border-color);
   padding: 8px 16px;
   border-radius: 8px;
-  transition: transform var(--transition-fast), color var(--transition-smooth), background-color var(--transition-smooth), border-color var(--transition-smooth);
+  transition:
+    transform var(--transition-fast),
+    color var(--transition-smooth),
+    background-color var(--transition-smooth),
+    border-color var(--transition-smooth);
 }
 
 [data-theme="dark"] .social-button {
@@ -323,7 +348,10 @@ body::before {
   border: 1px solid var(--border-color);
   padding: 6px 12px;
   border-radius: 6px;
-  transition: transform var(--transition-fast), border-color var(--transition-smooth), background-color var(--transition-smooth);
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-smooth),
+    background-color var(--transition-smooth);
 }
 
 [data-theme="dark"] .tag {
@@ -361,7 +389,11 @@ hr {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 12px;
-  transition: transform var(--transition-fast), background-color var(--transition-smooth), border-color var(--transition-smooth), box-shadow var(--transition-smooth);
+  transition:
+    transform var(--transition-fast),
+    background-color var(--transition-smooth),
+    border-color var(--transition-smooth),
+    box-shadow var(--transition-smooth);
 }
 
 .project-item:active {
@@ -390,7 +422,9 @@ hr {
   border-radius: 20px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  transition: background-color var(--transition-smooth), border-color var(--transition-smooth);
+  transition:
+    background-color var(--transition-smooth),
+    border-color var(--transition-smooth);
 }
 
 .badge-completed {
@@ -474,7 +508,7 @@ hr {
     border-color: var(--border-color-hover);
     transform: translateY(-1px);
   }
-  
+
   [data-theme="dark"] .social-button:hover {
     background: rgba(255, 255, 255, 0.06);
   }
@@ -527,14 +561,14 @@ hr {
     animation: fadeIn 300ms ease forwards;
     animation-delay: 0ms !important;
   }
-  
+
   .project-item:hover,
   .theme-toggle-btn:hover,
   .social-button:hover,
   .avatar-image:hover {
     transform: none !important;
   }
-  
+
   @keyframes fadeIn {
     to {
       opacity: 1;
